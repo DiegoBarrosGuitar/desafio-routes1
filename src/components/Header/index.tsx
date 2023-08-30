@@ -7,21 +7,20 @@ export default function Header() {
   return (
     <header>
       <div className="header-content-container container">
-       
         <nav className="navBar">
-          <NavLink to="/home" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" }>
+          <NavLink to="home" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" }>
             Inicio
           </NavLink>
-          <NavLink to="/products" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" }>
+          <NavLink to="products" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" }>
             Produtos
-            </NavLink>
-          <NavLink to="/about" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" }>
+          </NavLink>
+          <NavLink to="about" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" }>
             Sobre nós
-            </NavLink>
+          </NavLink>
         </nav>
         <Link to={"/"}>
            <div><img src={HomeImg} alt="" /></div>
-          </Link>
+        </Link>
       </div>
     </header>
   );
