@@ -1,13 +1,10 @@
-
 export default function Eletronics() {
   return (
     <>
       <main>
         <section>
           <div className="container">
-            <div className="mt-30 mb-30">  
-                
-            </div>
+            <div className="mt-30 mb-30"></div>
             <div className="p-description">
               <p>Eletrônico 1</p>
               <p>Eletrônico 2</p>
@@ -16,8 +13,6 @@ export default function Eletronics() {
           </div>
         </section>
       </main>
-    
     </>
-    
   );
 }
