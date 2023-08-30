@@ -1,5 +1,5 @@
 
-export default function Computers() {
+export default function Eletronics() {
   return (
     <>
       <main>
@@ -9,9 +9,9 @@ export default function Computers() {
                 
             </div>
             <div className="p-description">
-              <p>Computador 1</p>
-              <p>Computador 2</p>
-              <p>Computador 3</p>
+              <p>Eletrônico 1</p>
+              <p>Eletrônico 2</p>
+              <p>Eletrônico 3</p>
             </div>
           </div>
         </section>
