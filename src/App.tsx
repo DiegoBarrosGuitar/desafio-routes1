@@ -6,6 +6,7 @@ import About from "./routes/Home/About";
 import Computers from "./routes/Home/Products/Computers";
 import Eletronics from "./routes/Home/Products/Eletronics";
 import Books from "./routes/Home/Products/Books";
+import NotFound from "./routes/Home/Not found";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="books" element={<Books />} />
           </Route>
           <Route path="about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
