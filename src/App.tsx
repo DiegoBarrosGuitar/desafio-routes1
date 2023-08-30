@@ -12,11 +12,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}>
-          <Route index element={<Navigate to="/home" />} />
+          <Route index element={<Navigate to="home" />} />
           <Route path="home" element={<HomeBody />} />
           <Route path="products/*" element={<Products />}>
-            <Route path="computers" element={<Computers />} />
+            <Route index element= {<Computers />} />
             <Route path="eletronics" element={<Eletronics />} />
+            <Route path="computers" element={<Computers />} />
             <Route path="books" element={<Books />} />
           </Route>
           <Route path="about" element={<About />} />
